@@ -1,0 +1,11 @@
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\bin\Debug\Calculadora_DS1.exe.config
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\bin\Debug\Calculadora_DS1.exe
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\bin\Debug\Calculadora_DS1.pdb
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.csproj.AssemblyReference.cache
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.Form1.resources
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.Properties.Resources.resources
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.csproj.GenerateResource.cache
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.csproj.CoreCompileInputs.cache
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.exe
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.pdb
+C:\Users\LabInfo\source\repos\necrovale1\Calculadora_DS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.calcradio.resources
