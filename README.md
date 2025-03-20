@@ -13,3 +13,8 @@ Funcionalidades Principais
    📝 Funcionalidades à Calculadora de Múltiplos Valores: Implemente mais operações ou aumente a complexidade das operações realizadas
 
  ✍️ Feito por Carolina Rodrigues de Mattos, conhecida como Necrovale1
+
+## 👩‍🏫 **Equipe de Professores**
+
+- **Prof. Anderson Roque**
+- **Prof. Luiz Carlos**
