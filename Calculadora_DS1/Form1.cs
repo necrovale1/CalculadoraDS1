@@ -19,13 +19,12 @@ namespace Calculadora_DS1
             lblView.Text = "";
         }
 
-        private int click = 0;
+        private double currentResult = 0;  // Resultado acumulado da operação
         private string operation;
         private string input;
-
-        double a = 0;
-        double b = 0;
-        double r = 0;
+        List<double> values = new List<double>();  // Lista para armazenar os valores
+        private double r = 0;
+        private bool isNewOperation = true;
 
 
         //operações
@@ -34,126 +33,165 @@ namespace Calculadora_DS1
         }
         private void btnDividir_Click(object sender, EventArgs e)
         {
-            a = double.Parse(input);
-            operation = "/";
-            lblView.Text = operation;
-            input = "";
-    
+            if (!string.IsNullOrEmpty(input))
+            {
+                ApplyOperation();  // Aplica a operação anterior se existir
+                operation = "/";
+                lblView.Text = operation;
+                input = "";
+                isNewOperation = false;
+            }
         }
+
 
         private void btnSubtrair_Click(object sender, EventArgs e)
         {
-            a = double.Parse(input);
-            operation = "-";
-            lblView.Text = operation;
-            input = "";
+            if (!string.IsNullOrEmpty(input))
+            {
+                ApplyOperation();  // Aplica a operação anterior se existir
+                operation = "-";
+                lblView.Text = operation;
+                input = "";
+                isNewOperation = false;
+            }
         }
+
 
         private void btnSomar_Click(object sender, EventArgs e)
         {
-            a = double.Parse(input);
-            operation = "+";
-            lblView.Text = operation;
-            input = "";
+            if (!string.IsNullOrEmpty(input))
+            {
+                ApplyOperation();  // Aplica a operação anterior se existir
+                operation = "+";
+                lblView.Text = operation;
+                input = "";
+                isNewOperation = false;
+            }
         }
+
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
-            a = double.Parse(input);
-            operation = "*";
-            lblView.Text = operation;
-            input = "";
+            if (!string.IsNullOrEmpty(input))
+            {
+                ApplyOperation();  // Aplica a operação anterior se existir
+                operation = "*";
+                lblView.Text = operation;
+                input = "";
+                isNewOperation = false;
+            }
         }
+
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-           lblView.Text = "";
-
-            switch (operation)
+            if (!string.IsNullOrEmpty(input))
             {
-                case "+":
-                    b = double.Parse(input);
-                    r = a + b;
-                    lblView.Text = r.ToString();
-                    break;
-
-                case "-":
-                    b = double.Parse(input);
-                    r = a - b;
-                    lblView.Text = r.ToString();
-                    break;
-
-                case "/":
-                    b = double.Parse(input);
-                    r = a / b;
-                    lblView.Text = r.ToString();
-                    break;
-
-                case "*":
-                    b = double.Parse(input);
-                    r = a * b;
-                    lblView.Text = r.ToString();
-                    break;
+                ApplyOperation();  // Aplica a operação no último número
             }
-                input = "";
+
+            lblView.Text = currentResult.ToString();  // Exibe o resultado
+            operation = "";  // Reseta a operação
+            input = "";  // Limpa o campo de entrada
+            isNewOperation = true;  // A partir daqui, pode-se iniciar uma nova operação
         }
+
+        // Método para aplicar a operação no último número inserido
+        private void ApplyOperation()
+        {
+            double currentNumber = double.Parse(input);
+
+            if (isNewOperation)
+            {
+                currentResult = currentNumber; // Primeiro número
+            }
+            else
+            {
+                switch (operation)
+                {
+                    case "+":
+                        currentResult += currentNumber;
+                        break;
+                    case "-":
+                        currentResult -= currentNumber;
+                        break;
+                    case "*":
+                        currentResult *= currentNumber;
+                        break;
+                    case "/":
+                        if (currentNumber != 0)
+                        {
+                            currentResult /= currentNumber;
+                        }
+                        else
+                        {
+                            lblView.Text = "Erro: Divisão por zero!";
+                            currentResult = 0;
+                        }
+                        break;
+                }
+            }
+
+            input = "";  // Limpa o campo de entrada para o próximo número
+        }
+    
         //botões
         private void btn0_Click(object sender, EventArgs e)
         {
-           input = input + "0";
-           lblView.Text = input.ToString();
+           input += "0";
+           lblView.Text = input;
         }
         private void btn1_Click(object sender, EventArgs e)
         {
-            input = input + "1";
-            lblView.Text = input.ToString();
+            input += "1";
+            lblView.Text = input;
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
-            input = input + "2";
-            lblView.Text = input.ToString();
+            input += "2";
+            lblView.Text = input;
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            input = input + "3";
-            lblView.Text = input.ToString();
+            input += "3";
+            lblView.Text = input;
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
-            input = input + "4";
-            lblView.Text = input.ToString();
+            input += "4";
+            lblView.Text = input;
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
-            input = input + "5";
-            lblView.Text = input.ToString();
+            input += "5";
+            lblView.Text = input;
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
-            input = input + "6";
-            lblView.Text = input.ToString();
+            input += "6";
+            lblView.Text = input;
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
-            input = input + "7";
-            lblView.Text = input.ToString();
+            input += "7";
+            lblView.Text = input;
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
-            input = input + "8";
-            lblView.Text = input.ToString();
+            input += "8";
+            lblView.Text = input;
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
-            input = input + "9";
-            lblView.Text = input.ToString();
+            input += "9";
+            lblView.Text = input;
         }
 
         //resultado
@@ -166,10 +204,8 @@ namespace Calculadora_DS1
 
         private void ToolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-           
         }
-
-        private void tspSair_Click(object sender, EventArgs e)
+                private void tspSair_Click(object sender, EventArgs e)
         {
             Close();
         }
@@ -184,17 +220,14 @@ namespace Calculadora_DS1
 
         private void label1_Click_1(object sender, EventArgs e)
         {
-
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void txtDate_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void tmr1_Tick(object sender, EventArgs e)
@@ -209,12 +242,13 @@ namespace Calculadora_DS1
             calcRadioForm.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) // C - clear
         {
             input = "";
             lblView.Text = "";
             operation = "";
-            
+            currentResult = 0;
+            isNewOperation = true;
         }
     }
 }
