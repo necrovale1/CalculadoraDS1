@@ -20,3 +20,4 @@ C:\Users\LabInfo\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculado
 C:\Users\LabInfo\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.csproj.CoreCompileInputs.cache
 C:\Users\LabInfo\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.exe
 C:\Users\LabInfo\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.pdb
+C:\Users\LabInfo\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.CalcSimples.resources

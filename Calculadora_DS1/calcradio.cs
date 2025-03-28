@@ -130,6 +130,35 @@ namespace Calculadora_DS1
             Form1 form1 = new Form1();
             form1.ShowDialog();
         }
+
+        private void lblLine_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mstpCalcRadio_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            calcradio calcradio = new calcradio();
+            calcradio.ShowDialog();
+        }
+
+        private void tspCalcSimples_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CalcSimples calcSimples = new CalcSimples();    
+            calcSimples.ShowDialog();
+        }
     }
 }
         

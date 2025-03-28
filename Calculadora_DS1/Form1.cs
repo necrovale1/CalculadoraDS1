@@ -128,17 +128,19 @@ namespace Calculadora_DS1
                             currentResult = 0;
                         }
                         break;
+                    case "p":
+                        currentResult = Math.Pow(currentNumber,2);
+                        lblView.Text = currentResult.ToString();
+                        break;
                 }
             }
-
-            input = "";  // Limpa o campo de entrada para o próximo número
         }
-    
+
         //botões
         private void btn0_Click(object sender, EventArgs e)
         {
-           input += "0";
-           lblView.Text = input;
+            input += "0";
+            lblView.Text = input;
         }
         private void btn1_Click(object sender, EventArgs e)
         {
@@ -205,7 +207,7 @@ namespace Calculadora_DS1
         private void ToolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
         }
-                private void tspSair_Click(object sender, EventArgs e)
+        private void tspSair_Click(object sender, EventArgs e)
         {
             Close();
         }
@@ -215,7 +217,7 @@ namespace Calculadora_DS1
             if (MessageBox.Show("Deseja sair?", "", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) != DialogResult.Yes)
             {
                 e.Cancel = true;
-            }                                      
+            }
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -235,7 +237,7 @@ namespace Calculadora_DS1
             tslDateHour.Text = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
         }
 
-        private void mstpCalcRadio_Click(object sender, EventArgs e )
+        private void mstpCalcRadio_Click(object sender, EventArgs e)
         {
             this.Hide();
             calcradio calcRadioForm = new calcradio();
@@ -249,6 +251,64 @@ namespace Calculadora_DS1
             operation = "";
             currentResult = 0;
             isNewOperation = true;
+        }
+
+        private void simToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void calcSimplesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CalcSimples calcSimplesForm = new CalcSimples();
+            calcSimplesForm.ShowDialog();
+        }
+
+        private void btnVirgula_Click(object sender, EventArgs e)
+        {
+            if (!input.Contains(","))
+            {
+                input += ",";
+                lblView.Text = input;
+            }
+        }
+
+        private void btnPotencia_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(input))
+            {
+                operation = "p";
+                isNewOperation = false;
+                ApplyOperation();
+                                  input = "";
+            }
+        }
+
+        private void azulToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BackColor = Color.PaleTurquoise;
+            toolStrip1.BackColor = Color.SkyBlue;
+            menuStrip1.BackColor = Color.SkyBlue;
+            statusStrip1.BackColor = Color.PaleTurquoise;
+
+        }
+
+        private void verdeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BackColor = Color.LightGreen;
+            toolStrip1.BackColor = Color.MediumSeaGreen;
+            menuStrip1.BackColor = Color.MediumSeaGreen;
+            statusStrip1.BackColor = Color.LightGreen;
+
+        }
+
+        private void laranjaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BackColor = Color.PeachPuff;
+            toolStrip1.BackColor = Color.LightSalmon;
+            menuStrip1.BackColor = Color.LightSalmon;
+            statusStrip1.BackColor = Color.PeachPuff;
         }
     }
 }
