@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LabInfo\\source\\repos\\CalculadoraDS1\\",
+  "WorkspaceRootPath": "C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|c:\\users\\labinfo\\source\\repos\\calculadorads1\\calculadora_ds1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|c:\\users\\carol\\source\\repos\\calculadorads1\\calculadora_ds1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|solutionrelative:calculadora_ds1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|c:\\users\\labinfo\\source\\repos\\calculadorads1\\calculadora_ds1\\calcradio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\calculadora_ds1\\calcradio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|solutionrelative:calculadora_ds1\\calcradio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|c:\\users\\labinfo\\source\\repos\\calculadorads1\\calculadora_ds1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|solutionrelative:calculadora_ds1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\calculadora_ds1\\calcradio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|solutionrelative:calculadora_ds1\\calcradio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|c:\\users\\labinfo\\source\\repos\\calculadorads1\\calculadora_ds1\\calcradio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|solutionrelative:calculadora_ds1\\calcradio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\calculadora_ds1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA10C0C9-C173-4D29-8D63-1D1F8E5C354E}|Calculadora_DS1\\Calculadora_DS1.csproj|solutionrelative:calculadora_ds1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "calcradio.cs",
-              "DocumentMoniker": "C:\\Users\\LabInfo\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\calcradio.cs",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\calcradio.cs",
               "RelativeDocumentMoniker": "Calculadora_DS1\\calcradio.cs",
-              "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\calcradio.cs",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\calcradio.cs",
               "RelativeToolTip": "Calculadora_DS1\\calcradio.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA+wBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAASwKAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T22:45:11.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "calcradio.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LabInfo\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\calcradio.cs",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\calcradio.cs",
               "RelativeDocumentMoniker": "Calculadora_DS1\\calcradio.cs",
-              "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\calcradio.cs [Design]",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\calcradio.cs [Design]",
               "RelativeToolTip": "Calculadora_DS1\\calcradio.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T22:45:04.147Z",
@@ -57,22 +61,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\LabInfo\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\Form1.cs",
               "RelativeDocumentMoniker": "Calculadora_DS1\\Form1.cs",
-              "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\Form1.cs",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\Form1.cs",
               "RelativeToolTip": "Calculadora_DS1\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAswHcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T22:23:59.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LabInfo\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\Form1.cs",
               "RelativeDocumentMoniker": "Calculadora_DS1\\Form1.cs",
-              "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\CalculadoraDS1\\Calculadora_DS1\\Form1.cs [Design]",
               "RelativeToolTip": "Calculadora_DS1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T22:22:48.026Z",

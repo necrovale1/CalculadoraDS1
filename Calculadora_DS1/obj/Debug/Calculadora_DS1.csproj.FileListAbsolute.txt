@@ -21,3 +21,15 @@ C:\Users\LabInfo\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculado
 C:\Users\LabInfo\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.exe
 C:\Users\LabInfo\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.pdb
 C:\Users\LabInfo\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.CalcSimples.resources
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\bin\Debug\Calculadora_DS1.exe.config
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\bin\Debug\Calculadora_DS1.exe
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\bin\Debug\Calculadora_DS1.pdb
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.csproj.AssemblyReference.cache
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.calcradio.resources
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.CalcSimples.resources
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.Form1.resources
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.Properties.Resources.resources
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.csproj.GenerateResource.cache
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.csproj.CoreCompileInputs.cache
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.exe
+C:\Users\carol\Source\Repos\CalculadoraDS1\Calculadora_DS1\obj\Debug\Calculadora_DS1.pdb

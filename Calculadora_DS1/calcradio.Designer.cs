@@ -53,10 +53,11 @@
             this.rdbSomar.Checked = true;
             this.rdbSomar.Cursor = System.Windows.Forms.Cursors.Default;
             this.rdbSomar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.rdbSomar.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbSomar.Location = new System.Drawing.Point(32, 139);
+            this.rdbSomar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbSomar.Location = new System.Drawing.Point(21, 90);
+            this.rdbSomar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdbSomar.Name = "rdbSomar";
-            this.rdbSomar.Size = new System.Drawing.Size(130, 39);
+            this.rdbSomar.Size = new System.Drawing.Size(78, 24);
             this.rdbSomar.TabIndex = 0;
             this.rdbSomar.TabStop = true;
             this.rdbSomar.Text = "Somar";
@@ -67,10 +68,11 @@
             // 
             this.rdbSubtrair.AutoSize = true;
             this.rdbSubtrair.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.rdbSubtrair.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbSubtrair.Location = new System.Drawing.Point(32, 184);
+            this.rdbSubtrair.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbSubtrair.Location = new System.Drawing.Point(21, 120);
+            this.rdbSubtrair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdbSubtrair.Name = "rdbSubtrair";
-            this.rdbSubtrair.Size = new System.Drawing.Size(153, 39);
+            this.rdbSubtrair.Size = new System.Drawing.Size(90, 24);
             this.rdbSubtrair.TabIndex = 1;
             this.rdbSubtrair.Text = "Subtrair";
             this.rdbSubtrair.UseVisualStyleBackColor = true;
@@ -80,10 +82,11 @@
             // 
             this.rdbMultiplicar.AutoSize = true;
             this.rdbMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.rdbMultiplicar.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMultiplicar.Location = new System.Drawing.Point(32, 229);
+            this.rdbMultiplicar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbMultiplicar.Location = new System.Drawing.Point(21, 149);
+            this.rdbMultiplicar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdbMultiplicar.Name = "rdbMultiplicar";
-            this.rdbMultiplicar.Size = new System.Drawing.Size(187, 39);
+            this.rdbMultiplicar.Size = new System.Drawing.Size(107, 24);
             this.rdbMultiplicar.TabIndex = 2;
             this.rdbMultiplicar.Text = "Multiplicar";
             this.rdbMultiplicar.UseVisualStyleBackColor = true;
@@ -93,10 +96,11 @@
             // 
             this.rdbDividir.AutoSize = true;
             this.rdbDividir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.rdbDividir.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbDividir.Location = new System.Drawing.Point(35, 274);
+            this.rdbDividir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbDividir.Location = new System.Drawing.Point(23, 178);
+            this.rdbDividir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdbDividir.Name = "rdbDividir";
-            this.rdbDividir.Size = new System.Drawing.Size(129, 39);
+            this.rdbDividir.Size = new System.Drawing.Size(75, 24);
             this.rdbDividir.TabIndex = 3;
             this.rdbDividir.Text = "Dividir";
             this.rdbDividir.UseVisualStyleBackColor = true;
@@ -106,10 +110,11 @@
             // 
             this.rdbPotencia.AutoSize = true;
             this.rdbPotencia.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.rdbPotencia.Font = new System.Drawing.Font("RomanD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbPotencia.Location = new System.Drawing.Point(35, 319);
+            this.rdbPotencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPotencia.Location = new System.Drawing.Point(23, 207);
+            this.rdbPotencia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdbPotencia.Name = "rdbPotencia";
-            this.rdbPotencia.Size = new System.Drawing.Size(211, 39);
+            this.rdbPotencia.Size = new System.Drawing.Size(125, 24);
             this.rdbPotencia.TabIndex = 4;
             this.rdbPotencia.Text = "Potenciação";
             this.rdbPotencia.UseVisualStyleBackColor = true;
@@ -118,10 +123,11 @@
             // lblOperacoes
             // 
             this.lblOperacoes.AutoSize = true;
-            this.lblOperacoes.Font = new System.Drawing.Font("RomanD", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOperacoes.Location = new System.Drawing.Point(27, 72);
+            this.lblOperacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOperacoes.Location = new System.Drawing.Point(18, 47);
+            this.lblOperacoes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOperacoes.Name = "lblOperacoes";
-            this.lblOperacoes.Size = new System.Drawing.Size(215, 46);
+            this.lblOperacoes.Size = new System.Drawing.Size(127, 26);
             this.lblOperacoes.TabIndex = 5;
             this.lblOperacoes.Text = "Operações";
             this.lblOperacoes.Click += new System.EventHandler(this.label1_Click);
@@ -130,10 +136,11 @@
             // 
             this.btnCalc.BackColor = System.Drawing.Color.PeachPuff;
             this.btnCalc.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCalc.Font = new System.Drawing.Font("RomanD", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalc.Location = new System.Drawing.Point(541, 229);
+            this.btnCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalc.Location = new System.Drawing.Point(361, 149);
+            this.btnCalc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCalc.Name = "btnCalc";
-            this.btnCalc.Size = new System.Drawing.Size(133, 40);
+            this.btnCalc.Size = new System.Drawing.Size(89, 26);
             this.btnCalc.TabIndex = 6;
             this.btnCalc.Text = "Calcular";
             this.btnCalc.UseVisualStyleBackColor = false;
@@ -143,10 +150,11 @@
             // 
             this.btnLimpa.BackColor = System.Drawing.Color.PeachPuff;
             this.btnLimpa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnLimpa.Font = new System.Drawing.Font("RomanD", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpa.Location = new System.Drawing.Point(361, 319);
+            this.btnLimpa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpa.Location = new System.Drawing.Point(241, 207);
+            this.btnLimpa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLimpa.Name = "btnLimpa";
-            this.btnLimpa.Size = new System.Drawing.Size(257, 40);
+            this.btnLimpa.Size = new System.Drawing.Size(171, 26);
             this.btnLimpa.TabIndex = 7;
             this.btnLimpa.Text = "Limpar";
             this.btnLimpa.UseVisualStyleBackColor = false;
@@ -156,10 +164,11 @@
             // 
             this.btnVolta.BackColor = System.Drawing.Color.PeachPuff;
             this.btnVolta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnVolta.Font = new System.Drawing.Font("RomanD", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolta.Location = new System.Drawing.Point(541, 87);
+            this.btnVolta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolta.Location = new System.Drawing.Point(361, 57);
+            this.btnVolta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVolta.Name = "btnVolta";
-            this.btnVolta.Size = new System.Drawing.Size(133, 95);
+            this.btnVolta.Size = new System.Drawing.Size(89, 62);
             this.btnVolta.TabIndex = 8;
             this.btnVolta.Text = "Voltar";
             this.btnVolta.UseVisualStyleBackColor = false;
@@ -169,10 +178,11 @@
             // 
             this.txb1.BackColor = System.Drawing.Color.PeachPuff;
             this.txb1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txb1.Font = new System.Drawing.Font("RomanD", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb1.Location = new System.Drawing.Point(302, 89);
+            this.txb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb1.Location = new System.Drawing.Point(201, 58);
+            this.txb1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txb1.Name = "txb1";
-            this.txb1.Size = new System.Drawing.Size(169, 39);
+            this.txb1.Size = new System.Drawing.Size(113, 24);
             this.txb1.TabIndex = 9;
             this.txb1.TextChanged += new System.EventHandler(this.txb1_TextChanged);
             // 
@@ -180,10 +190,11 @@
             // 
             this.txb2.BackColor = System.Drawing.Color.PeachPuff;
             this.txb2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txb2.Font = new System.Drawing.Font("RomanD", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb2.Location = new System.Drawing.Point(302, 143);
+            this.txb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txb2.Location = new System.Drawing.Point(201, 93);
+            this.txb2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txb2.Name = "txb2";
-            this.txb2.Size = new System.Drawing.Size(169, 39);
+            this.txb2.Size = new System.Drawing.Size(113, 24);
             this.txb2.TabIndex = 10;
             this.txb2.TextChanged += new System.EventHandler(this.txb2_TextChanged);
             // 
@@ -191,9 +202,10 @@
             // 
             this.lblLine.AutoSize = true;
             this.lblLine.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLine.Location = new System.Drawing.Point(281, 186);
+            this.lblLine.Location = new System.Drawing.Point(187, 121);
+            this.lblLine.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLine.Name = "lblLine";
-            this.lblLine.Size = new System.Drawing.Size(207, 37);
+            this.lblLine.Size = new System.Drawing.Size(142, 26);
             this.lblLine.TabIndex = 11;
             this.lblLine.Text = "__________";
             this.lblLine.Click += new System.EventHandler(this.lblLine_Click);
@@ -202,10 +214,11 @@
             // 
             this.btnResultado.BackColor = System.Drawing.Color.PeachPuff;
             this.btnResultado.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnResultado.Font = new System.Drawing.Font("RomanD", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResultado.Location = new System.Drawing.Point(319, 244);
+            this.btnResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResultado.Location = new System.Drawing.Point(213, 159);
+            this.btnResultado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnResultado.Name = "btnResultado";
-            this.btnResultado.Size = new System.Drawing.Size(139, 38);
+            this.btnResultado.Size = new System.Drawing.Size(93, 25);
             this.btnResultado.TabIndex = 12;
             this.btnResultado.Text = "?";
             this.btnResultado.UseVisualStyleBackColor = false;
@@ -213,41 +226,41 @@
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Bisque;
-            this.menuStrip1.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tspCalcPlus,
             this.tspCalcSimples});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.menuStrip1.Size = new System.Drawing.Size(745, 40);
+            this.menuStrip1.Size = new System.Drawing.Size(497, 24);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menu";
             // 
             // tspCalcPlus
             // 
-            this.tspCalcPlus.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tspCalcPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tspCalcPlus.Name = "tspCalcPlus";
-            this.tspCalcPlus.Size = new System.Drawing.Size(156, 34);
+            this.tspCalcPlus.Size = new System.Drawing.Size(92, 22);
             this.tspCalcPlus.Text = "Calc. Plus";
-            this.tspCalcPlus.Click += new System.EventHandler(this.mstpCalcRadio_Click);
+            this.tspCalcPlus.Click += new System.EventHandler(this.tspCalcPlus_Click);
             // 
             // tspCalcSimples
             // 
-            this.tspCalcSimples.Font = new System.Drawing.Font("RomanD", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tspCalcSimples.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tspCalcSimples.Name = "tspCalcSimples";
-            this.tspCalcSimples.Size = new System.Drawing.Size(200, 34);
+            this.tspCalcSimples.Size = new System.Drawing.Size(117, 22);
             this.tspCalcSimples.Text = "Calc. Simples";
             this.tspCalcSimples.Click += new System.EventHandler(this.tspCalcSimples_Click);
             // 
             // calcradio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSalmon;
-            this.ClientSize = new System.Drawing.Size(745, 526);
+            this.ClientSize = new System.Drawing.Size(497, 342);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnResultado);
             this.Controls.Add(this.lblLine);
@@ -262,6 +275,7 @@
             this.Controls.Add(this.rdbMultiplicar);
             this.Controls.Add(this.rdbSubtrair);
             this.Controls.Add(this.rdbSomar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "calcradio";
             this.Text = "calcradio";
             this.Load += new System.EventHandler(this.calcradio_Load);

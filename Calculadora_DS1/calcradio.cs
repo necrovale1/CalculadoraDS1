@@ -146,18 +146,19 @@ namespace Calculadora_DS1
 
         }
 
-        private void mstpCalcRadio_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            calcradio calcradio = new calcradio();
-            calcradio.ShowDialog();
-        }
 
         private void tspCalcSimples_Click(object sender, EventArgs e)
         {
             this.Hide();
             CalcSimples calcSimples = new CalcSimples();    
             calcSimples.ShowDialog();
+        }
+
+        private void tspCalcPlus_Click(object sender, EventArgs e)
+        {
+           this.Hide();
+           Form1 form1 = new Form1();
+           form1.ShowDialog();
         }
     }
 }
