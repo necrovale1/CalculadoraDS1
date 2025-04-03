@@ -53,7 +53,11 @@ namespace Calculadora_DS1
                     case Keys.D8: case Keys.NumPad8: btn8.PerformClick(); btn8.BackColor = Color.DarkGray; break;
                     case Keys.D9: case Keys.NumPad9: btn9.PerformClick(); btn9.BackColor = Color.DarkGray; break;
 
-                    //comandos delete e enter
+                    case Keys.Oemcomma:
+                    case Keys.NumpadComma: // ,
+                        btnVirgula.PerformClick(); btnVirgula.BackColor = Color.DarkGray; break;
+                    
+                        //comandos delete e enter
                     case Keys.Space:
                         btnIgual.PerformClick();
                         btnIgual.BackColor = Color.DarkGray;
