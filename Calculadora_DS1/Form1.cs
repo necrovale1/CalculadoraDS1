@@ -13,6 +13,7 @@ namespace Calculadora_DS1
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -20,6 +21,8 @@ namespace Calculadora_DS1
             this.KeyPreview = true; // Permite capturar teclas no formulário
             this.KeyDown += new KeyEventHandler(Form1_KeyDown);
             this.KeyUp += new KeyEventHandler(Form1_KeyUp);
+
+
         }
 
         private double currentResult = 0;  // Resultado acumulado da operação
@@ -31,292 +34,90 @@ namespace Calculadora_DS1
         private bool keyIsPressed = false;
 
         //keys
+        private HashSet<Keys> teclasPressionadas = new HashSet<Keys>();
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (!keyIsPressed)
+            if (!teclasPressionadas.Contains(e.KeyCode))
             {
+                teclasPressionadas.Add(e.KeyCode);
                 switch (e.KeyCode)
                 {
-                    
-                    case Keys.D0:
-                        btn0.PerformClick();
-                        btn0.BackColor = Color.Gray;
-                        break;
-                    case Keys.D1:
-                        btn1.PerformClick();
-                        btn1.BackColor = Color.Gray;
-                        break;
-                    case Keys.D2:
-                        btn2.PerformClick();
-                        btn2.BackColor = Color.Gray;
-                        break;
-                    case Keys.D3:
-                        btn3.PerformClick();
-                        btn3.BackColor = Color.Gray;
-                        break;
-                    case Keys.D4:
-                        btn4.PerformClick();
-                        btn4.BackColor = Color.Gray;
-                        break;
-                    case Keys.D5:
-                        btn5.PerformClick();
-                        btn5.BackColor = Color.Gray;
-                        break;
-                    case Keys.D6:
-                        btn6.PerformClick();
-                        btn6.BackColor = Color.Gray;
-                        break;
-                    case Keys.D7:
-                        btn7.PerformClick();
-                        btn7.BackColor = Color.Gray;
-                        break;
-                    case Keys.D8:
-                        btn8.PerformClick();
-                        btn8.BackColor = Color.Gray;
-                        break;
-                    case Keys.D9:
-                        btn9.PerformClick();
-                        btn9.BackColor = Color.Gray;
-                        break;
-                    case Keys.Oemplus when !e.Shift:
+                    // Números principais e teclado numérico
+                    case Keys.D0: case Keys.NumPad0: btn0.PerformClick(); btn0.BackColor = Color.DarkGray; break;
+                    case Keys.D1: case Keys.NumPad1: btn1.PerformClick(); btn1.BackColor = Color.DarkGray; break;
+                    case Keys.D2: case Keys.NumPad2: btn2.PerformClick(); btn2.BackColor = Color.DarkGray; break;
+                    case Keys.D3: case Keys.NumPad3: btn3.PerformClick(); btn3.BackColor = Color.DarkGray; break;
+                    case Keys.D4: case Keys.NumPad4: btn4.PerformClick(); btn4.BackColor = Color.DarkGray; break;
+                    case Keys.D5: case Keys.NumPad5: btn5.PerformClick(); btn5.BackColor = Color.DarkGray; break;
+                    case Keys.D6: case Keys.NumPad6: btn6.PerformClick(); btn6.BackColor = Color.DarkGray; break;
+                    case Keys.D7: case Keys.NumPad7: btn7.PerformClick(); btn7.BackColor = Color.DarkGray; break;
+                    case Keys.D8: case Keys.NumPad8: btn8.PerformClick(); btn8.BackColor = Color.DarkGray; break;
+                    case Keys.D9: case Keys.NumPad9: btn9.PerformClick(); btn9.BackColor = Color.DarkGray; break;
+
+                    //comandos delete e enter
+                    case Keys.Enter:
+                    case Keys.Space: // =
                         btnIgual.PerformClick();
-                        btnIgual.BackColor = Color.Gray;
+                        btnIgual.BackColor = Color.DarkGray;
                         break;
-                    case Keys.Oemplus:
-                        btnSomar.PerformClick();
-                        btnSomar.BackColor = Color.Gray;
-                        break;
-                    case Keys.OemMinus:
-                        btnSubtrair.PerformClick();
-                        btnSubtrair.BackColor = Color.Gray;
-                        break;
-                    case Keys.Add:
-                        btnSomar.PerformClick();
-                        btnSomar.BackColor = Color.Gray;
-                        break;
-                    case Keys.Subtract:
-                        btnDividir.PerformClick();
-                        btnDividir.BackColor = Color.Gray;
-                        break;
-                    case Keys.Multiply:
-                        btnMultiplicar.PerformClick();
-                        btnMultiplicar.BackColor = Color.Gray;
-                        break;
-                    case Keys.Divide:
-                        btnDividir.PerformClick();
-                        btnDividir.BackColor = Color.Gray;
-                        break;
-                    case Keys.C:
-                        btnClear.PerformClick();
-                        btnClear.BackColor = Color.Gray;
-                        break;
-                    case Keys.P:
-                        btnPotencia.PerformClick();
-                        btnPotencia.BackColor = Color.Gray;
-                        break;
-                    case Keys.Oemcomma:
-                        btnVirgula.PerformClick();
-                        btnVirgula.BackColor = Color.Gray;
-                        break;
+
+
                     case Keys.Delete:
                         btnClear.PerformClick();
-                        btnClear.BackColor = Color.Gray;
+                        btnClear.BackColor = Color.DarkGray;
                         break;
-                    case Keys.Back:
-                        btnClear.BackColor = Color.Gray;
-                        btnClear.PerformClick();
-                        break;
-                    case Keys.Enter:
-                        btnIgual.PerformClick();
-                        btnIgual.BackColor = Color.Gray;
-                        break;
-                    case Keys.NumPad0:
-                        btn0.PerformClick();
-                        btn0.BackColor = Color.Gray;
-                        break;
-                    case Keys.NumPad1:
-                        btn1.PerformClick();
-                        btn1.BackColor = Color.Gray;
-                        break;
-                    case Keys.NumPad2:
-                        btn2.PerformClick();
-                        btn2.BackColor = Color.Gray;
-                        break;
-                    case Keys.NumPad3:
-                        btn3.PerformClick();
-                        btn3.BackColor = Color.Gray;
-                        break;
-                    case Keys.NumPad4:
-                        btn4.PerformClick();
-                        btn4.BackColor = Color.Gray;
-                        break;
-                    case Keys.NumPad5:
-                        btn5.PerformClick();
-                        btn5.BackColor = Color.Gray;
-                        break;
-                    case Keys.NumPad6:
-                        btn6.PerformClick();
-                        btn6.BackColor = Color.Gray;
-                        break;
-                    case Keys.NumPad7:
-                        btn7.PerformClick();
-                        btn7.BackColor = Color.Gray;
-                        break;
-                    case Keys.NumPad8:
-                        btn8.PerformClick();
-                        btn8.BackColor = Color.Gray;
-                        break;
-                    case Keys.NumPad9:
-                        btn9.PerformClick();
-                        btn9.BackColor = Color.Gray;
-                        break;              
 
+                    // Operações
+                    case Keys.Add:
+                        btnSomar.PerformClick();
+                        btnSomar.BackColor = Color.DarkGray;
+                        break;
+
+                    case Keys.Oemplus:
+                        if (e.Shift)
+                        {
+                            btnSomar.PerformClick();
+                            btnSomar.BackColor = Color.DarkGray; // shift + '=' -> '+'
+                        }
+                        else
+                        {
+                            btnIgual.PerformClick();
+                            btnIgual.BackColor = Color.DarkGray; // '=' sem shift
+                        }
+                            break;
+
+                    case Keys.P:
+                        btnPotencia.PerformClick();
+                        btnPotencia.BackColor = Color.DarkGray;
+                        break;
+                                    
+                    case Keys.OemMinus:
+                    case Keys.Subtract:
+                        btnSubtrair.PerformClick(); btnSubtrair.BackColor = Color.DarkGray; break;
+
+                    case Keys.D: case Keys.Divide:    // Letra D como alternativa
+                        btnDividir.PerformClick();
+                        btnDividir.BackColor = Color.DarkGray;
+                        break;
                 }
-                keyIsPressed = true;
-
             }
-                        
         }
+        
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
-           {
-                switch (e.KeyCode)
+            {
+                teclasPressionadas.Remove(e.KeyCode);
+                MudarCorBotoes(); // muda para branco
+            }
+        }
+        private void MudarCorBotoes()
+        {
+            foreach (Control ctrl in this.Controls)
+            {
+                if (ctrl is Button btn)
                 {
-                    case Keys.D0:
-                        btn0.PerformClick();
-                        btn0.BackColor = Color.White;
-                        break;
-                    case Keys.D1:
-                        btn1.PerformClick();
-                        btn1.BackColor = Color.White;
-                        break;
-                    case Keys.D2:
-                        btn2.PerformClick();
-                        btn2.BackColor = Color.White;
-                        break;
-                    case Keys.D3:
-                        btn3.PerformClick();
-                        btn3.BackColor = Color.White;
-                        break;
-                    case Keys.D4:
-                        btn4.PerformClick();
-                        btn4.BackColor = Color.White;
-                        break;
-                    case Keys.D5:
-                        btn5.PerformClick();
-                        btn5.BackColor = Color.White;
-                        break;
-                    case Keys.D6:
-                        btn6.PerformClick();
-                        btn6.BackColor = Color.White;
-                        break;
-                    case Keys.D7:
-                        btn7.PerformClick();
-                        btn7.BackColor = Color.White;
-                        break;
-                    case Keys.D8:
-                        btn8.PerformClick();
-                        btn8.BackColor = Color.White;
-                        break;
-                    case Keys.D9:
-                        btn9.PerformClick();
-                        btn9.BackColor = Color.White;
-                        break;
-                    case Keys.Oemplus when !e.Shift:
-                        btnIgual.PerformClick();
-                        btnIgual.BackColor = Color.White;
-                        break;
-                    case Keys.Oemplus:
-                        btnSomar.PerformClick();
-                        btnSomar.BackColor = Color.White;
-                        break;
-                    case Keys.OemMinus:
-                        btnSubtrair.PerformClick();
-                        btnSubtrair.BackColor = Color.White;
-                        break;
-                    case Keys.Add:
-                        btnSomar.PerformClick();
-                        btnSomar.BackColor = Color.White;
-                        break;
-                    case Keys.Subtract:
-                        btnDividir.PerformClick();
-                        btnDividir.BackColor = Color.White;
-                        break;
-                    case Keys.Multiply:
-                        btnMultiplicar.PerformClick();
-                        btnMultiplicar.BackColor = Color.White;
-                        break;
-                    case Keys.Divide:
-                        btnDividir.PerformClick();
-                        btnDividir.BackColor = Color.White;
-                        break;
-                    case Keys.C:
-                        btnClear.PerformClick();
-                        btnClear.BackColor = Color.White;
-                        break;
-                    case Keys.P:
-                        btnPotencia.PerformClick();
-                        btnPotencia.BackColor = Color.White;
-                        break;
-                    case Keys.Oemcomma:
-                        btnVirgula.PerformClick();
-                        btnVirgula.BackColor = Color.White;
-                        break;
-                    case Keys.Delete:
-                        btnClear.PerformClick();
-                        btnClear.BackColor = Color.White;
-                        break;
-                    case Keys.Back:
-                        btnClear.PerformClick();
-                        btnClear.BackColor = Color.White;
-                        break;
-                    case Keys.Enter:
-                        btnIgual.PerformClick();
-                        btnIgual.BackColor = Color.White;
-                        break;
-                    case Keys.NumPad0:
-                        btn0.PerformClick();
-                        btn0.BackColor = Color.White;
-                        break;
-                    case Keys.NumPad1:
-                        btn1.PerformClick();
-                        btn1.BackColor = Color.White;
-                        break;
-                    case Keys.NumPad2:
-                        btn2.PerformClick();
-                        btn2.BackColor = Color.White;
-                        break;
-                    case Keys.NumPad3:
-                        btn3.PerformClick();
-                        btn3.BackColor = Color.White;
-                        break;
-                    case Keys.NumPad4:
-                        btn4.PerformClick();
-                        btn4.BackColor = Color.White;
-                        break;
-                    case Keys.NumPad5:
-                        btn5.PerformClick();
-                        btn5.BackColor = Color.White;
-                        break;
-                    case Keys.NumPad6:
-                        btn6.PerformClick();
-                        btn6.BackColor = Color.White;
-                        break;
-                    case Keys.NumPad7:
-                        btn7.PerformClick();
-                        btn7.BackColor = Color.White;
-                        break;
-                    case Keys.NumPad8:
-                        btn8.PerformClick();
-                        btn8.BackColor = Color.White;
-                        break;
-                    case Keys.NumPad9:
-                        btn9.PerformClick();
-                        btn9.BackColor = Color.White;
-                        break;
-
+                    btn.BackColor = Color.White;
                 }
-                keyIsPressed = false;
             }
         }
         //operações
