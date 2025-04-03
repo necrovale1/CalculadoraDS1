@@ -21,8 +21,7 @@ namespace Calculadora_DS1
             this.KeyPreview = true; // Permite capturar teclas no formulário
             this.KeyDown += new KeyEventHandler(Form1_KeyDown);
             this.KeyUp += new KeyEventHandler(Form1_KeyUp);
-
-
+           
         }
 
         private double currentResult = 0;  // Resultado acumulado da operação
@@ -55,8 +54,7 @@ namespace Calculadora_DS1
                     case Keys.D9: case Keys.NumPad9: btn9.PerformClick(); btn9.BackColor = Color.DarkGray; break;
 
                     //comandos delete e enter
-                    case Keys.Enter:
-                    case Keys.Space: // =
+                    case Keys.Space:
                         btnIgual.PerformClick();
                         btnIgual.BackColor = Color.DarkGray;
                         break;
@@ -73,6 +71,10 @@ namespace Calculadora_DS1
                         btnSomar.BackColor = Color.DarkGray;
                         break;
 
+                    case Keys.Multiply:
+                        btnMultiplicar.PerformClick();
+                        btnMultiplicar.BackColor = Color.DarkGray;
+                        break;
                     case Keys.Oemplus:
                         if (e.Shift)
                         {
@@ -202,14 +204,45 @@ namespace Calculadora_DS1
                 switch (operation)
                 {
                     case "+":
-                        currentResult += currentNumber;
+                        if (currentNumber != 0)
+                        {
+                            currentResult += currentNumber;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Operação com Zero!");
+                            lblView.Text = "";
+                            currentResult = 0;
+                        }
                         break;
+
                     case "-":
-                        currentResult -= currentNumber;
+
+                        if (currentNumber != 0)
+                        {
+                            currentResult -= currentNumber;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Operação com Zero!");
+                            lblView.Text = "";
+                            currentResult = 0;
+                        }
                         break;
+
                     case "*":
-                        currentResult *= currentNumber;
+                        if (currentNumber != 0)
+                        {
+                            currentResult *= currentNumber;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Operação com Zero!");
+                            lblView.Text = "";
+                            currentResult = 0;
+                        }
                         break;
+
                     case "/":
                         if (currentNumber != 0)
                         {
@@ -217,13 +250,24 @@ namespace Calculadora_DS1
                         }
                         else
                         {
-                            lblView.Text = "Erro: Divisão por zero!";
+                            MessageBox.Show("Operação com Zero!");
+                            lblView.Text = "";
                             currentResult = 0;
                         }
                         break;
+
                     case "p":
-                        currentResult = Math.Pow(currentNumber,2);
-                        lblView.Text = currentResult.ToString();
+                        if (currentNumber != 0)
+                        {
+                            currentResult = Math.Pow(currentNumber, 2);
+                            lblView.Text = currentResult.ToString();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Operação com Zero!");
+                            lblView.Text = "";
+                            currentResult = 0;
+                        }
                         break;
                 }
             }
