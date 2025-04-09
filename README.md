@@ -19,3 +19,7 @@
 
 - **Prof. Anderson Roque**
 - **Prof. Luiz Carlos**
+
+## 🎞️ **Vídeo Explicativo**
+- https://www.youtube.com/watch?v=Z18tJhBzx-c 
+
