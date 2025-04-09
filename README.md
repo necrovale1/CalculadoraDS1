@@ -21,5 +21,5 @@
 - **Prof. Luiz Carlos**
 
 ## 🎞️ **Vídeo Explicativo**
--  [Youtube]([https://dogdev.netlify.app/](https://www.youtube.com/watch?v=Z18tJhBzx-c)
+-  [Youtube](https://www.youtube.com/watch?v=Z18tJhBzx-c)
 
