@@ -37,9 +37,6 @@ namespace Calculadora_DS1
             r = a - b;
 
             btnResultado.Text = r.ToString();
-            txb1.Text = "";
-            txb2.Text = "";
-
         }
 
         private void btnDividir_Click(object sender, EventArgs e)
@@ -50,8 +47,7 @@ namespace Calculadora_DS1
             r = a / b;
 
             btnResultado.Text = r.ToString();
-            txb1.Text = "";
-            txb2.Text = "";
+
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -73,8 +69,7 @@ namespace Calculadora_DS1
             r = a + b;
 
             btnResultado.Text = r.ToString();
-            txb1.Text = "";
-            txb2.Text = "";
+
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
@@ -85,8 +80,7 @@ namespace Calculadora_DS1
             r = a * b;
 
             btnResultado.Text = r.ToString();
-            txb1.Text = "";
-            txb2.Text = "";
+
         }
 
         private void btnResultado_Click(object sender, EventArgs e)
